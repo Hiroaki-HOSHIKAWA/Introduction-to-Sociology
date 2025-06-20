@@ -21,11 +21,11 @@ def NashEquilibrium_Judgement(benefit_table,action_num):
             # Aが行動を変えた時にAの利得が上昇するかどうか
             for action in possible_actions_a:
                 if action[0] > current_action[0]:
-                    flag = False
+                    flag &= False
             # Bが行動を変えた時にBの利得が上昇するかどうか
             for action in possible_actions_b:
                 if action[1] > current_action[1]:
-                    flag = False
+                    flag &= False
             print(f"current :{current_action} NE = {flag}")
 
 
