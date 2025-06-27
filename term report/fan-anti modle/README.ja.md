@@ -32,6 +32,14 @@ $$
 R(b,f) = \tanh(\alpha f + \beta(1-f^2)), (\alpha,\beta \in \mathbb{R})
 $$
 
-と定義すると[^by-chat-gpt]
+と定義する[^by-chat-gpt]
+
+時刻 $t$ におけるファン値と対象の振る舞いをそれぞれ $f_t,b_t$ とおくと,
+
+$$
+f_{t+1} = R(f_t,b_t)
+$$
+
+で表すとする
 
 [^by-chat-gpt]: この式はChat GPTに提案されたものです。
